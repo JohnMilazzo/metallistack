@@ -50,8 +50,8 @@ This starts your app in development mode, rebuilding assets on file changes.
 
 The database seed script creates a new user with some data you can use to get started:
 
-- Email: `metal@remix.run`
-- Password: `metaliscool`
+- Email: `metallistack@johnmilazzo.com`
+- Password: `metallicool`
 
 ### Relevant code:
 
@@ -120,7 +120,7 @@ Now that everything is set up you can commit and push your changes to your repo.
 
 ### Connecting to your database
 
-The sqlite database lives at `/data/sqlite.db` in your deployed application. You can connect to the live database by running `fly ssh console -C database-cli`.
+The Postgres database lives at `Supabase`. ToDo...
 
 ### Getting Help with Deployment
 
