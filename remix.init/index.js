@@ -115,16 +115,16 @@ const main = async ({ packageManager, rootDirectory }) => {
     readme,
     env,
     dockerfile,
-    //    createUserCommand,
-    //    deleteUserCommand,
+//    createUserCommand,
+//    deleteUserCommand,
     packageJson,
   ] = await Promise.all([
     fs.readFile(FLY_TOML_PATH, "utf-8"),
     fs.readFile(README_PATH, "utf-8"),
     fs.readFile(EXAMPLE_ENV_PATH, "utf-8"),
     fs.readFile(DOCKERFILE_PATH, "utf-8"),
-    fs.readFile(CREATE_USER_COMMAND_PATH, "utf-8"),
-    fs.readFile(DELETE_USER_COMMAND_PATH, "utf-8"),
+//    fs.readFile(CREATE_USER_COMMAND_PATH, "utf-8"),
+//    fs.readFile(DELETE_USER_COMMAND_PATH, "utf-8"),
     PackageJson.load(rootDirectory),
   ]);
 
