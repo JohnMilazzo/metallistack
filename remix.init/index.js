@@ -101,7 +101,7 @@ const main = async ({ packageManager, rootDirectory }) => {
   const CREATE_USER_COMMAND_PATH = path.join("create-user.ts");
   const DELETE_USER_COMMAND_PATH = path.join("delete-user.ts");
 
-  const REPLACER = "indie-stack-template";
+  const REPLACER = "metallistack";
 
   const DIR_NAME = path.basename(rootDirectory);
   const SUFFIX = getRandomString(2);
