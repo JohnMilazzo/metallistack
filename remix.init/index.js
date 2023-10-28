@@ -98,8 +98,8 @@ const main = async ({ packageManager, rootDirectory }) => {
   const EXAMPLE_ENV_PATH = path.join(rootDirectory, ".env.example");
   const ENV_PATH = path.join(rootDirectory, ".env");
   const DOCKERFILE_PATH = path.join(rootDirectory, "Dockerfile");
-  const CREATE_USER_COMMAND_PATH = path.join("create-user.ts");
-  const DELETE_USER_COMMAND_PATH = path.join("delete-user.ts");
+//  const CREATE_USER_COMMAND_PATH = path.join("create-user.ts");
+//  const DELETE_USER_COMMAND_PATH = path.join("delete-user.ts");
 
   const REPLACER = "metallistack";
 
