@@ -9,10 +9,12 @@ npx create-remix@latest --template JohnMilazzo/metallistack
 ## What's in the stack
 
 - [Fly app deployment](https://fly.io) with [Docker](https://www.docker.com/)
-- Production-ready [SQLite Database](https://sqlite.org)
+- Production-ready [Postgres database](https://supabase.com)
 - Healthcheck endpoint for [Fly backups region fallbacks](https://fly.io/docs/reference/configuration/#services-http_checks)
 - [GitHub Actions](https://github.com/features/actions) for deploy on merge to production and staging environments
 - Email/Password Authentication with [cookie-based sessions](https://remix.run/utils/sessions#md-createcookiesessionstorage)
+- TypeScript-first schema validation with [Zod](https://github.com/colinhacks/zod)
+- Progressive enhancement first form validation with [Conform](https://conform.guide/)
 - Database ORM with [Prisma](https://prisma.io)
 - Styling with [Tailwind](https://tailwindcss.com/)
 - Code formatting with [Prettier](https://prettier.io)
